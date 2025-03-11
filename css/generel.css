@@ -12,4 +12,32 @@ img{
 }
 
 /* Fonts */
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter_18pt-Regular.ttf);
+}
+
+h1, h2, h3{
+    font-family: roboto;
+}
+
+p{
+    font-family: montserrat;
+}
+
+.tagline{
+    font-family: inter;
+}
+
+/* Styling */
 
