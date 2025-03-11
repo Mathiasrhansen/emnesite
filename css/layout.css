@@ -1,0 +1,12 @@
+/* Default styles er til mobile first */
+/* indsæt her*/
+
+/* Tilpas til tablet og større skærme */
+@media (width>=700px) {
+
+}
+
+/* Tilpas til desktop */
+@media (width>=1200px){
+    
+}
