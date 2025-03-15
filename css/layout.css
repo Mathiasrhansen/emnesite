@@ -8,5 +8,8 @@
 
 /* Tilpas til desktop */
 @media (width>=1200px){
-    
+    .grid_1-2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
 }

@@ -40,4 +40,16 @@ p{
 }
 
 /* Styling */
+.btn{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: green;
+    text-align: center; 
+}
 
+.btn2{
+    color: 0068FF;
+    text-decoration: none;
+}
