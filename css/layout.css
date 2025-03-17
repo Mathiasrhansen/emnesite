@@ -1,15 +1,81 @@
 /* Default styles er til mobile first */
 /* indsæt her*/
+.order{
+    order: 2;
+}
+
+.order2{
+    order: 0;
+}
+
+.index-text{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 50px;
+}
+
+
+.flex_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* Tilpas til tablet og større skærme */
 @media (width>=700px) {
-
-}
-
-/* Tilpas til desktop */
-@media (width>=1200px){
     .grid_1-2{
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
+    
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* .index_padding{
+        padding-left: 100px;
+    } */
+
+    .grid_1-1_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5vh;
+    }
+    
+    img flex_col{
+        width: 200px;
+        height: 200px;
+    }
+    .padding{
+        margin-left: 100px;
+        margin-right: 100px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .centerintro_2{
+        width: 600px;
+
+    }
+}
+
+/* Tilpas til desktop */
+@media (width>=1200px){
+    .index-text{
+        margin-top: 140px;
+        margin-bottom: 80px;
+        margin-left: 50px;
+    } 
+    
+    .index_padding{
+        padding-left: 220px;
+    }
+
+    .padding{
+        margin-left: 200px;
+        margin-right: 200px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    
 }
