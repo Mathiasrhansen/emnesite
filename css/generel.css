@@ -27,6 +27,11 @@ img{
     src: url(../fonts/Inter_18pt-Regular.ttf);
 }
 
+@font-face {
+    font-family: queenside;
+    src: url(../fonts/Queenside.ttf);
+}
+
 h1, h2, h3{
     font-family: roboto;
 }
@@ -46,6 +51,12 @@ a{
 
 h3{
     border-left: solid 2px blue;
+}
+
+.logo{
+    font-family: queenside;
+    color: blue;
+    font-size: larger;
 }
 
 /* Styling */

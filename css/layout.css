@@ -1,7 +1,7 @@
 /* Default styles er til mobile first */
 /* indsæt her*/
 .order{
-    order: 2;
+    order: -1;
 }
 
 .order2{
@@ -14,6 +14,9 @@
     padding-left: 50px;
 }
 
+.flex_padding{
+    margin-left: 10px;
+} 
 
 .flex_col{
     display: flex;
@@ -33,9 +36,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    /* .index_padding{
-        padding-left: 100px;
-    } */
+
 
     .grid_1-1_2{
         display: grid;
